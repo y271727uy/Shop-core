@@ -1,0 +1,6 @@
+# 主菜配置
+items = [
+    "cuisinedelight:ham_fried_rice",
+    "cuisinedelight:fried_rice",
+    "cuisinedelight:mixed_fried_rice"
+]

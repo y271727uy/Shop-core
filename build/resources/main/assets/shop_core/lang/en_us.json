@@ -1,0 +1,18 @@
+{
+  "block.shop_core.shop_counter": "Shop Counter (Snack Bar)",
+  "itemGroup.shop_core_tab": "Shop Core",
+  "message.shop_core.counter.clipboard": "§cNeed to hold clipboard in off-hand to record orders",
+  "message.shop_core.counter.closed_for_now": "§aShop closed",
+  "message.shop_core.counter.cant_change_menu": "§cCan't change menu while open",
+  "message.shop_core.counter.set_menu": "§aMenu set successfully",
+  "message.shop_core.counter.bad_menu": "§cMenu validation failed, ensure you have enough valid items (at least 3)",
+  "message.shop_core.counter.empty_filter": "§cFilter is empty",
+  "message.shop_core.counter.too_close": "§cThere's already another shop nearby",
+  "message.shop_core.counter.no_skillet": "§cPlease ensure there's a working skillet in 3x3 range",
+  "message.shop_core.counter.invalid_filter": "§cInvalid filter",
+  "message.shop_core.counter.open_for_business": "§aShop is now open for business",
+  "entity.shop_core.customer": "Customer",
+  "message.shop_core.counter.insufficient_valid_items": "§cCurrent menu not set successfully, you need three or more valid items, current valid item count: %s",
+  "message.shop_core.counter.currently_open": "§aShop is currently open with %s menu items",
+  "message.shop_core.counter.currently_closed": "§cShop is currently closed"
+}

@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#minced_strider"
+        },
+        "east": {
+          "rotation": 90,
+          "texture": "#minced_strider",
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            14.0
+          ]
+        },
+        "north": {
+          "rotation": 180,
+          "texture": "#minced_strider",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "#minced_strider"
+        },
+        "up": {
+          "texture": "#minced_strider"
+        },
+        "west": {
+          "rotation": 270,
+          "texture": "#minced_strider",
+          "uv": [
+            0.0,
+            2.0,
+            2.0,
+            14.0
+          ]
+        }
+      },
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ]
+    }
+  ],
+  "textures": {
+    "minced_strider": "kubejs:item/ingredients/minced_strider"
+  }
+}

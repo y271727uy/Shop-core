@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#sliced_ham"
+        },
+        "east": {
+          "rotation": 90,
+          "texture": "#sliced_ham",
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            14.0
+          ]
+        },
+        "north": {
+          "rotation": 180,
+          "texture": "#sliced_ham",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "#sliced_ham"
+        },
+        "up": {
+          "texture": "#sliced_ham"
+        },
+        "west": {
+          "rotation": 270,
+          "texture": "#sliced_ham",
+          "uv": [
+            0.0,
+            2.0,
+            2.0,
+            14.0
+          ]
+        }
+      },
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ]
+    }
+  ],
+  "textures": {
+    "sliced_ham": "kubejs:item/ingredients/sliced_ham"
+  }
+}

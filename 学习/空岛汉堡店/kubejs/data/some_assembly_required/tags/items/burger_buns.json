@@ -1,0 +1,16 @@
+{
+  "values": [
+    "some_assembly_required:burger_bun_bottom",
+    "some_assembly_required:burger_bun_top",
+	"kubejs:rice_burger_top",
+	"kubejs:rice_burger_bottom",
+	"kubejs:ink_burger_top",
+	"kubejs:ink_burger_bottom",
+	"kubejs:oat_burger_top",
+	"kubejs:oat_burger_bottom",
+	"kubejs:blaze_burger_top",
+	"kubejs:blaze_burger_bottom",
+	"kubejs:egg_burger_top",
+	"kubejs:egg_burger_bottom"
+  ]
+}

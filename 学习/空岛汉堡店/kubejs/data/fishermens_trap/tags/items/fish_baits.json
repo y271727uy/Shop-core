@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:bread",
+    "minecraft:golden_carrot",
+    "minecraft:beetroot",
+    "minecraft:sweet_berries",
+    "minecraft:melon_slice",
+	"farmersdelight:chicken_cuts",
+	"farmersdelight:tomato",
+	"farmersdelight:cabbage_leaf",
+	"farmersdelight:cod_slice",
+	"some_assembly_required:bread_slice",
+    "minecraft:air"
+  ]
+}

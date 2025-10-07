@@ -1,0 +1,315 @@
+[
+  {
+    "section": "Cast",
+    "disciplines": [
+      {
+        "discipline": "Lead Actors",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "Skillet Man - PLAYERNAME as",
+              "End Realm Lord - Golden Flame King as",
+              "Narrator - P1nero as"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Supporting Roles",
+        "titles": [
+          {
+            "title": "Villager Team",
+            "names": [
+              "Quality Life Assistant Villager",
+              "Priest Villager",
+              "Legendary Armorer",
+              "Burly Weaponsmith",
+              "Legendary Mechanic",
+              "Librarian",
+              "Child Villager",
+              "Butcher Villager",
+              "Fisherman Villager",
+              "Farmer Villager",
+              "Shepherd Villager",
+              "Iron Golem",
+              "Super Alpha Iron Bro"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Guest Appearances",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "Power-Packed Villager",
+              "Rāna Kaname"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Extras",
+        "titles": [
+          {
+            "title": "Villager Team",
+            "names": [
+              "Harmless Wandering Trader",
+              "Harmless Villager Client",
+              "Unemployed Drifter A",
+              "Unemployed Drifter B",
+              "Unemployed Drifter C"
+            ]
+          },
+          {
+            "title": "Monster Team",
+            "names": [
+              "Zombie",
+              "Skeleton",
+              "Spider",
+              "Creeper",
+              "Witch",
+              "Wither Skeleton",
+              "Blaze",
+              "Vindicator",
+              "Evoker",
+              "Enderman"
+            ]
+          },
+          {
+            "title": "Animal Team",
+            "names": [
+              "Chicken Bro",
+              "Wolf",
+              "Cat",
+              "Pig",
+              "Cow",
+              "Sheep"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Production Team",
+    "disciplines": [
+      {
+        "discipline": "Author",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Director",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Programming",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Quest, Codex & Tutorial Design",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Dialogue Design",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Art Design",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Worldbuilding",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Multi-tier Shops & Windmill Architecture",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "External Support",
+        "titles": [
+          {
+            "title": "Final Boss",
+            "names": [
+              "太阳照常升起 (LittleSun2048)"
+            ]
+          },
+          {
+            "title": "Animation",
+            "names": [
+              "merlin204"
+            ]
+          },
+          {
+            "title": "Some Textures",
+            "names": [
+              "Hant0nN Golden/Diamond Skillet and some Item",
+              "XVIII-ling Boss Bar"
+            ]
+          },
+          {
+            "title": "Terrain",
+            "names": [
+              "wonderful艾晨"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "Equipment Support",
+        "titles": [
+          {
+            "title": "Server Sponsorship",
+            "names": [
+              "白露 (NHBlock)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Alpha Testing Contributions",
+    "disciplines": [
+      {
+        "discipline": "",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "紫斗",
+              "佩拉瑞斯",
+              "雪落无痕",
+              "RSGed",
+              "Merlin204"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Advertisement Space Available",
+    "disciplines": [
+      {
+        "discipline": "Advertisements for Rent",
+        "titles": [
+          {
+            "title": "Advertisement Space Available",
+            "names": [
+              "Advertisement space available",
+              "Contact P1nero for inquiries"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Special Thanks",
+    "disciplines": [
+      {
+        "discipline": "",
+        "titles": [
+          {
+            "title": "Dialogue system inspired by open-source project (Licensed under GNU Lesser General Public License v3.0)",
+            "names": [
+              "The Aether"
+            ]
+          },
+          {
+            "title": "Some materials sourced from (infringement deleted):",
+            "names": [
+              "pixabay",
+              "aigei.com",
+              "Partial elements pay tribute to Plants vs. Zombies"
+            ]
+          },
+          {
+            "title": "Translator (Translators of other languages can add your name here.)",
+            "names": [
+              "Aupoex",
+              "P1nero"
+            ]
+          },
+          {
+            "title": "Assistance with Create Mod",
+            "names": [
+              "Aupoex",
+              "JackNeksa",
+              "RSGed",
+              "VX_Nary"
+            ]
+          },
+          {
+            "title": "Tribute to",
+            "names": [
+              "Minecraft",
+              "Minecraft Forge",
+              "All mods in the modpack"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

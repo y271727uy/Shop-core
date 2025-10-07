@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "shop_core"
+version = "1.0.0"
+displayName = "Shop Core"
+authors = "y271727uy"
+description = '''${mod_description}'''
+
+[[dependencies."shop_core"]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."shop_core"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

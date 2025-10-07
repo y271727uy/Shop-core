@@ -1,0 +1,305 @@
+buildscript {
+    repositories {
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+    }
+}
+
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+//    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id+'-forge'+minecraft_version + "-" + System.currentTimeSeconds()
+}
+
+jarJar.enable()
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+
+    mappings channel: mapping_channel, version: mapping_version
+
+    copyIdeResources = true
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            arg "-mixin.config=skillet_man_core.mixins.json"
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        client {
+            property 'forge.enabledGameTestNamespaces', mod_id
+            arg "-mixin.config=skillet_man_core.mixins.json"
+        }
+
+        server {
+            property 'forge.enabledGameTestNamespaces', mod_id
+            args '--nogui'
+        }
+
+        gameTestServer {
+            property 'forge.enabledGameTestNamespaces', mod_id
+        }
+
+        data {
+            workingDirectory project.file('run-data')
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    mavenCentral()
+
+    flatDir {
+        dirs 'libs'
+    }
+
+    maven {
+        url "https://repo.spongepowered.org/repository/maven-public/"
+    }
+
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+
+    maven {
+        name "create maven"
+        url "https://maven.createmod.net"
+    }
+
+    maven { // Registrate
+        url "https://maven.tterrag.com/"
+    }
+
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+    }
+
+}
+
+reobf {
+    jarJar {}
+}
+
+tasks.jarJar.finalizedBy('reobfJarJar')
+
+tasks.jarJar.configure {
+    archiveClassifier.set('')
+}
+
+jar {
+    archiveClassifier.set('slim')
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation fg.deobf(jarJar("dev.xkmc.l2library:l2library:2.4.14-slim")) {
+        transitive = false
+        jarJar.ranged(it, "[2.4.14,)")
+    }
+
+    implementation fg.deobf(jarJar("dev.xkmc.l2serial:l2serial:1.2.0")) {
+        transitive = false
+        jarJar.ranged(it, "[1.2.0,)")
+    }
+
+    implementation fg.deobf('curse.maven:touhou-little-maid-355044:6613821-sources-6613853')
+    implementation fg.deobf("curse.maven:patchouli-306770:6164575")
+    implementation fg.deobf("curse.maven:maidsoul-kitchen-1162577:6342482")
+
+    //TODO 临时导入！
+//    implementation fg.deobf("curse.maven:panoramica-426082:4019292")
+    implementation fg.deobf("curse.maven:copycats-968398:6462507")
+
+//    implementation fg.deobf("curse.maven:polymorph-388800:6450982")
+
+    //史诗战斗
+    implementation fg.deobf("curse.maven:epic-fight-mod-405076:6145747")
+    implementation fg.deobf("curse.maven:weapons-of-miracles-epicfight-918614:5889471")
+    implementation fg.deobf("libs:super_golem:20.9.1.2")
+    implementation fg.deobf("libs:super_chef:20.9.1")
+    implementation fg.deobf("libs:p1nero_dl:1.0.0")
+    implementation fg.deobf("curse.maven:epic-fight-invincible-1184379:6503086")
+//    implementation fg.deobf("curse.maven:epic-fight-super-golem-1236331:6397690")
+
+    //传送石
+    implementation fg.deobf("curse.maven:waystones-245755:6270584")
+    implementation fg.deobf("curse.maven:balm-531761:6362504")
+    //垃圾槽
+    implementation fg.deobf("curse.maven:trashslot-235577:6319121")
+
+    //地图
+    implementation fg.deobf("curse.maven:xaeros-world-map-317780:6212636")//大地图
+    implementation fg.deobf("curse.maven:xaeros-minimap-263420:6306152")//小地图
+
+    //更好的村庄
+    implementation fg.deobf("curse.maven:better-village-forge-615352:6306266")
+    implementation fg.deobf("curse.maven:library-ferret-forge-532727:4601234")
+
+    //生成器
+    implementation fg.deobf("curse.maven:lithostitched-936015:6183392")
+
+    //农夫乐事 生活调味料
+    implementation fg.deobf("curse.maven:farmers-delight-398521:6154802")
+    implementation fg.deobf("curse.maven:cuisine-delight-893541:5814261")
+    implementation fg.deobf("curse.maven:barbeques-delight-1007788:5848042")
+//    implementation fg.deobf("curse.maven:storage-drawers-223852:6549483")
+    implementation fg.deobf("curse.maven:spice-of-life-carrot-edition-277616:4888575")
+//    implementation fg.deobf("curse.maven:appleskin-248787:4770828")
+
+    //机械动力
+    implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}-${create_version_build}:slim") { transitive = false }
+    implementation fg.deobf("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}") { transitive = false }
+    implementation fg.deobf("dev.engine-room.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+
+    implementation fg.deobf("curse.maven:create-connected-947914:6401676")
+    implementation fg.deobf("curse.maven:create-diesel-generators-869316:6286179")
+    implementation fg.deobf("libs:create_cuisine:1.0.0")
+    implementation fg.deobf("libs:create_arm_made_bbq:1.0.0")
+
+    implementation fg.deobf("curse.maven:hungteens-lib-794622:6616773")
+
+    implementation fg.deobf("curse.maven:epic-terrain-compatible-1137535:6439744")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:6364065")
+    implementation fg.deobf("curse.maven:terrablender-563928:6290448")
+    implementation fg.deobf("curse.maven:glitchcore-955399:5787839")
+
+    implementation fg.deobf("curse.maven:ecliptic-seasons-1118306:6544587")
+
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.4.7")
+    implementation fg.deobf("curse.maven:fantasy-armor-1083998:6385161")
+
+    //背包
+    implementation fg.deobf("curse.maven:sophisticated-core-618298:6266807")
+    implementation fg.deobf("curse.maven:sophisticated-backpacks-422301:6246607")
+
+//    implementation fg.deobf("curse.maven:curios-309927:6418456")
+
+    implementation fg.deobf("curse.maven:toms-storage-378609:6418133")
+
+    implementation fg.deobf("curse.maven:yungs-better-end-island-901344:5193815")
+    implementation fg.deobf("curse.maven:yungs-api-421850:5769971")
+
+
+
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
+//============================================================客户端============================================================
+    //菜单
+    implementation fg.deobf("curse.maven:fancymenu-367706:6408859")
+    implementation fg.deobf("curse.maven:konkrete-410295:5028413")
+    implementation fg.deobf("curse.maven:melody-938643:5109692")
+
+    //相机 NOTE runData不能用
+//    implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
+//    implementation fg.deobf("curse.maven:leawind-third-person-930880:5961735")
+//    implementation fg.deobf("libs:eflw:20.9.0")
+
+    //优化
+    implementation fg.deobf("curse.maven:embeddium-908741:5681725")
+//    implementation fg.deobf("curse.maven:entityculling-448233:6355861")
+    implementation fg.deobf("curse.maven:immediatelyfast-686911:6312293")
+
+
+    implementation fg.deobf("curse.maven:oculus-581495:6020952")
+//    implementation fg.deobf("curse.maven:distant-horizons-508933:6387680")
+
+    implementation fg.deobf("curse.maven:inventory-profiles-next-495267:6095062")
+    implementation fg.deobf("curse.maven:libipn-679177:5208511")
+    implementation fg.deobf("curse.maven:kotlin-for-forge-351264:5402061")
+
+//========================================================================================================================
+
+    compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+    jarJar(group: 'com.tterrag.registrate', name: 'Registrate', version: "[MC1.20,MC1.21)")
+
+}
+
+mixin {
+    add sourceSets.main, 'skillet_man_core.mixin-refmap.json'
+    config 'skillet_man_core.mixins.json'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+            forge_version: forge_version, forge_version_range: forge_version_range,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors: mod_authors, mod_description: mod_description,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : mod_authors,
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "MixinConfigs": "skillet_man_core.mixins.json"
+        ])
+    }
+
+    finalizedBy 'reobfJar'
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

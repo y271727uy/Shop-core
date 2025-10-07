@@ -1,0 +1,21 @@
+StartupEvents.registry('item', event => {
+    event.create('copper_coin').texture('kubejs:item/economic/copper_coin')
+    event.create('iron_coin').texture('kubejs:item/economic/iron_coin')
+    event.create('gold_coin').texture('kubejs:item/economic/gold_coin')
+	event.create('diamond_coin').texture('kubejs:item/economic/diamond_coin')
+    event.create('netherite_coin').texture('kubejs:item/economic/netherite_coin')
+	event.create('copper_certificate').texture('kubejs:item/economic/copper_certificate')
+    event.create('iron_certificate').texture('kubejs:item/economic/iron_certificate')
+    event.create('gold_certificate').texture('kubejs:item/economic/gold_certificate')
+	event.create('diamond_certificate').texture('kubejs:item/economic/diamond_certificate')
+    event.create('netherite_certificate').texture('kubejs:item/economic/netherite_certificate')
+    event.create('mini_banker').texture('kubejs:item/economic/mini_banker').maxStackSize(1)
+	event.create('crowbar').texture('kubejs:item/crowbar').maxStackSize(1)
+    event.create('punched_card_make').texture('kubejs:item/economic/punched_card_make')
+	event.create('punched_card_sell').texture('kubejs:item/economic/punched_card_sell')
+
+
+    event.create('iron_contract').texture('kubejs:item/economic/iron_contract')
+    event.create('gold_contract').texture('kubejs:item/economic/gold_contract')
+	event.create('diamond_contract').texture('kubejs:item/economic/diamond_contract')
+})

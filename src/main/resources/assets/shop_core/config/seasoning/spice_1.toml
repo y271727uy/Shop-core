@@ -1,0 +1,5 @@
+# 调味料等级 1 配置 (加成: 1%)
+items = [
+    "minecraft:sugar",
+    "minecraft:wheat_seeds"
+]

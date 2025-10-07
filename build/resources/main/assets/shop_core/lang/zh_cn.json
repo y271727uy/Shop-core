@@ -1,0 +1,18 @@
+{
+  "block.shop_core.shop_counter": "柜台（小食坊）",
+  "itemGroup.shop_core_tab": "商店核心",
+  "message.shop_core.counter.clipboard": "§c需要副手持有剪贴板才能记录订单",
+  "message.shop_core.counter.closed_for_now": "§a店铺已关闭",
+  "message.shop_core.counter.cant_change_menu": "§c营业中不能更改菜单",
+  "message.shop_core.counter.set_menu": "§a菜单设置成功",
+  "message.shop_core.counter.bad_menu": "§c菜单验证失败，请确保有足够的有效物品（至少3种）",
+  "message.shop_core.counter.empty_filter": "§c过滤器为空",
+  "message.shop_core.counter.too_close": "§c附近已有其他店铺",
+  "message.shop_core.counter.no_skillet": "§c请在3x3范围内确保有工作中的炒锅",
+  "message.shop_core.counter.invalid_filter": "§c无效的过滤器",
+  "message.shop_core.counter.open_for_business": "§a店铺开始营业",
+  "entity.shop_core.customer": "顾客",
+  "message.shop_core.counter.insufficient_valid_items": "§c当前菜单未设置成功，你需要三个及三个以上的有效物品，当前有效物品数量：%s",
+  "message.shop_core.counter.currently_open": "§a店铺正在营业中，菜单包含 %s 种商品",
+  "message.shop_core.counter.currently_closed": "§c店铺未营业"
+}

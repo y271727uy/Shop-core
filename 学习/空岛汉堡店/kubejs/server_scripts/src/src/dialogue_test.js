@@ -1,0 +1,151 @@
+global.lumiaDialogues={
+    10030001:[
+        ["看来你的汉堡店已经达到了一个新的阶段！","rumia_happy.png"],
+        ["到达五级之后，使用纸右键柜台获取执照，就可以获取新章节的内容了！","rumia_normal.png"],
+        ["但是呢，顾客也会吃腻之前的食材……","rumia_normal.png"],
+        ["因此，要进一步提升声望，就需要在菜单中加入新章节的食材！","rumia_happy.png"],
+        ["具体而言，需要菜单中有『三种』新章节的食材。","rumia_normal.png"],
+        ["比如说第二章的话，就可以在菜单中放入三种烤鱼片。","rumia_normal.png"],
+        ["继续加油吧！打造全世界最优秀的汉堡店！","rumia_happy.png"]
+    ],
+    10020001:[
+        ["欸？给我的吗？","rumia_surprised.png"],
+        ["啊呜——","rumia_normal.png"],
+        ["呜哇——不好吃——","rumia_angry.png"]
+    ],
+    10020002:[
+        ["欸？给我的吗？","rumia_surprised.png"],
+        ["啊呜——","rumia_normal.png"],
+        ["*嚼嚼* *嚼嚼*","rumia_normal.png"],
+        ["很好吃呢！谢谢你！","rumia_happy.png"]
+    ],
+    10020003:[
+        ["哇，好好吃的样子——","rumia_normal.png"],
+        ["真的是给我准备的吗？","rumia_surprised.png"],
+        ["那我就不客气啦——","rumia_happy.png"],
+        ["啊呜啊呜——","rumia_happy.png"]
+    ],
+    10020004:[
+        ["这个，看着真的好好吃啊……","rumia_normal.png"],
+        ["非常丰盛的大餐的样子……","rumia_normal.png"],
+        ["露米娅真的可以吃吗？","rumia_surprised.png"],
+        ["嗯，那么，我开动了——","rumia_happy.png"],
+        ["啊呜啊呜——","rumia_happy.png"]
+    ],
+    10020005:[
+        ["欸？这个，这，你是从哪里弄来的……","rumia_surprised.png"],
+        ["啊，给我吃的吗？","rumia_surprised.png"],
+        ["哇！谢谢你！我开动了——","rumia_happy.png"],
+        ["啊呜啊呜——","rumia_happy.png"],
+        ["不许跟红白告状哦！","rumia_angry.png"],
+    ],
+    10010001:[
+        ["是—这样吗——","rumia_happy.png"],
+        ["如果有什么想问我的，直接在叫完我的名字之后接上你想问的问题就好啦~","rumia_normal.png"],
+        ["比如说呢，可以直接问我『露米娅，怎么让[村民]留下来啊？』","rumia_normal.png"],
+        ["或者呢，也可以问我『露米娅，问题的[列表]都有哪些？』","rumia_normal.png"],
+    ],
+    10010002:[
+        ["……欸？一下子说这么多听不过来啦——","rumia_confused.png"],
+        ["有什么问题一个一个问啦……","rumia_derpy.png"]
+    ],
+    10010003:[
+        ["什么意思呢……露米娅听不懂啦。","rumia_surprised.png"],
+        ["不知道你是在说什么呢。","rumia_derpy.png"],
+        ["你也可以问问我，『露米娅，问题的[列表]都有哪些？』","rumia_normal.png"],
+    ],
+    10010004:[
+        ["姆……你可以问『声望』的获取，以及声望相关的执照……","rumia_normal.png"],
+        ["或者呢，可以问问与『村民』们要如何交互……","rumia_normal.png"],
+        ["以及，如何招募和指派『员工』……","rumia_normal.png"],
+        ["目前就是这些了！以后会有更加全面的教程！","rumia_normal.png"]
+    ],
+    10010005:[
+        ["上次帮米斯琪看店的时候她是这么说的……","rumia_surprised.png"],
+		["只要按照顾客的需求，完美完成顾客的订单……","rumia_normal.png"],
+		["然后，嗯，尽量不要吃掉顾客……","rumia_derpy.png"],
+        ["那么随着口口相传，小店就会逐渐变得更有人气啦！","rumia_happy.png"],
+        ["随着声望的提升，顾客们会愿意出更高的价钱！","rumia_normal.png"],
+        ["你可以用书右键柜台来查看当前的声望。","rumia_normal.png"],
+        ["同时呢，声望等级提升到一定级别后，可以使用纸张右键柜台……","rumia_normal.png"],
+        ["这样就可以获得『执照』！执照可以用来合成各种工作站，解锁新的食材。","rumia_happy.png"],
+        ["但是需要注意——随着店铺等级的提升，你需要扩展你的菜单才能进一步打出名气。","rumia_surprised.png"],
+        ["具体而言，进入新章节之后，『菜单中需要至少包含三种新章节食材』才行。","rumia_normal.png"]
+    ],
+    10010006:[
+        ["姆……把你的酒馆清理干净，用蓝图添加为建筑，冒险家就会来到你的岛上了。","rumia_normal.png"],
+        ["如果想要让冒险家留下来成为村民，必须在『交谈』这个大选项下，选择『待在此处』。","rumia_surprised.png"],
+        ["是『交谈-待在此处』，不是『互动-位置-安家此地』！","rumia_angry.png"],
+        ["有些村民更喜欢作为冒险家生活，这也没办法……","rumia_normal.png"],
+        ["对于留下来的那些村民，你可以用『互动-位置-工作区域』为他安排一份工作！","rumia_normal.png"],
+        ["或者你也可以用各种各样的礼物，与村民们打好关系！","rumia_happy.png"],
+        ["不仅如此，你还可以建设一个完美的城镇！成为这篇空岛的国王！","rumia_happy.png"]
+    ],
+    10010007:[
+        ["到达15级声望之后，你就可以合成最低级的合同了……","rumia_normal.png"],
+        ["使用合同右键『任何生物』，就可以将其招募为对应等级的『员工』！","rumia_happy.png"],
+        ["员工需要位于柜台的『正北方一格内』，也就是顾客的对面方位。","rumia_surprised.png"],
+        ["你可以在柜台的正北方放置一个坐垫，以此保证员工能安心工作！","rumia_normal.png"],
+        ["员工会从自己『左方一格内』的容器中拿取食材，把拿到的钱存入自己『右方一格内』的容器中。","rumia_normal.png"],
+        ["必须要有至少两个容器，员工才能开始工作。","rumia_normal.png"],
+        ["容器可以是任何漏斗可以交互的对象！箱子，背包……甚至是抽屉控制器！","rumia_happy.png"],
+        ["前期的员工效率远不如你自己动手，还会扣除一定的声望和收益。","rumia_normal.png"],
+        ["但是呢……可以在你干别的事情的时候帮你看店！","rumia_happy.png"]
+    ]
+}
+global.lumiaKeyWords={
+    "列表":10010004,
+    "声望":10010005,
+    "村民":10010006,
+    "员工":10010007
+}
+global.lumiaVarients=["露米娅","露米亚"]
+PlayerEvents.chat(event => {
+    if(global.lumiaVarients.includes(event.message.slice(0,3))){
+        let message=event.message;
+        let dialogue=10010001;
+        for(let i in global.lumiaKeyWords){
+            if(message.indexOf(i)!=-1){
+                if(dialogue!=10010001&&dialogue!=global.lumiaKeyWords[i]){
+                    dialogue=10010002;
+                    break;
+                }
+                dialogue=global.lumiaKeyWords[i];
+            }
+        }
+        if(dialogue==1&&event.message.length>=6)dialogue=10010003
+        event.player.persistentData.putInt("rumiadialogue",dialogue)
+        event.player.persistentData.putInt("dialoguestage",0)
+        event.cancel()
+    }
+ })
+ItemEvents.entityInteracted(event=>{
+    if(event.target.type!='youkaishomecoming:rumia')return;
+    let item=event.item;
+    let player=event.player;
+    if(item.isEdible()){
+        let nutrition=item.getFoodProperties(player).getNutrition();
+        item.shrink(1)
+        //player.tell(nutrition)
+        if(item.hasTag("youkaishomecoming:flesh_food")){
+            event.player.persistentData.putInt("rumiadialogue",10020005)
+            event.player.persistentData.putInt("dialoguestage",0)
+        }
+        else if(nutrition>=12){
+            event.player.persistentData.putInt("rumiadialogue",10020004)
+            event.player.persistentData.putInt("dialoguestage",0)
+        }
+        else if(nutrition>=8){
+            event.player.persistentData.putInt("rumiadialogue",10020003)
+            event.player.persistentData.putInt("dialoguestage",0)
+        }
+        else if(nutrition>=3){
+            event.player.persistentData.putInt("rumiadialogue",10020002)
+            event.player.persistentData.putInt("dialoguestage",0)
+        }
+        else{
+            event.player.persistentData.putInt("rumiadialogue",10020001)
+            event.player.persistentData.putInt("dialoguestage",0)
+        }
+    }
+})

@@ -1,0 +1,182 @@
+
+{	
+	"item.resourceful_tools.glass_placer": "玻璃法杖",
+	"item.resourceful_tools.glass_placer.line1": "凭空放置玻璃。",
+	"item.resourceful_tools.glass_placer.line2": "右键使用。",
+
+	"item.resourceful_tools.hand_tiller": "铁耙",
+	"item.resourceful_tools.hand_tiller_copper": "铜耙",
+	"item.resourceful_tools.hand_tiller.line1":"用来从黏土和沙砾中获得资源。",
+	"item.resourceful_tools.hand_tiller.jei_info.line1":"挖掘沙砾有几率掉落碎骨，挖掘黏土有几率掉落墨囊。",
+	
+	"item.resourceful_tools.hook_knife": "铁钩刃",
+	"item.resourceful_tools.hook_knife_copper": "铜钩刃",
+	"item.resourceful_tools.hook_knife.line1": "用来从羊身上收割线（不造成伤害）",
+	"item.resourceful_tools.hook_knife.line2": "破坏羊毛方块可以掉落线",
+	
+	"item.resourceful_tools.hand_pick": "铁勘矿镐",
+	"item.resourceful_tools.hand_pick_copper": "铜勘矿镐",
+	"item.resourceful_tools.hand_pick.line1":"用来从各种石头中获得各种资源。",
+	"item.resourceful_tools.hand_pick.jei_info.line1":"用其破坏以下方块以收获物品：\n 砂岩 -> 硝石 \n 下界岩 -> 硫磺 \n 岩浆块 -> 小撮烈焰粉 \n 下界石英 -> 恶魂之泪碎片 \n 黑石 -> 下界合金碎屑 \n 末地石 -> 下界之星碎片",
+	
+	"item.resourceful_tools.hand_scraper": "铁刮铲",
+	"item.resourceful_tools.hand_scraper_copper": "铜刮铲",
+	"item.resourceful_tools.hand_scrapper.line1":"用来把竹子刮成竹片",
+	"item.resourceful_tools.hand_scrapper.line2":"在工作台中使用",
+	
+	"item.resourceful_tools.tree_trimmer": "铁修枝器",
+	"item.resourceful_tools.tree_trimmer_copper": "铜修枝器",
+	"item.resourceful_tools.tree_trimmer.line1": "用来从树叶和海洋植物中获得各种资源。",
+	"item.resourceful_tools.tree_trimmer.jei_info.line1":"用其破坏以下方块以收获物品： \n 云杉树叶 -> 羽毛 \n 白桦树叶 -> 线 \n 橡树树叶 -> 苹果 \n 金合欢树叶 -> 兔子脚 \n 丛林树叶 -> 蜘蛛眼 \n 杜鹃树叶 -> 幻翼膜 \n 深色橡木树叶 -> 末影珍珠碎片 \n 高海草 -> 海晶沙砾 \n 海带 - > 海晶碎片 \n 干草块 - > 鸡蛋",
+	
+	"item.resourceful_tools.powder_sulfur": "硫磺",
+	"item.resourceful_tools.powder_saltpeter": "硝石",
+	
+	"item.resourceful_tools.bone_fragment": "骨片",
+	"item.resourceful_tools.bit_o_slime": "小团史莱姆",
+	"item.resourceful_tools.pearl_fragment": "珍珠碎片",
+	"item.resourceful_tools.small_blaze_powder": "小撮烈焰粉",
+	"item.resourceful_tools.nether_star_fragment": "下界之星碎片",
+	"item.resourceful_tools.ghast_tear_fragment": "恶魂之泪碎片",
+	"item.resourceful_tools.netherite_fragment": "下界合金碎屑",
+	
+	"item.resourceful_tools.bamboo_sheet": "竹片",
+	"item.resourceful_tools.large_bamboo_sheet": "竹板",
+	
+	"item.resourceful_tools.ream_of_paper": "一沓纸",
+
+	"item.resourceful_tools.clam_digger": "铁挖蛤铲",
+	"item.resourceful_tools.clam_digger_copper": "铜挖蛤铲",
+	"item.resourceful_tools.clam_digger.line1": "用来从沙滩群系的沙子中挖出蛤蜊。",
+	"item.resourceful_tools.clam": "蛤蜊",
+	"item.resourceful_tools.raw_clam": "生蛤肉",
+	"item.resourceful_tools.cooked_clam": "熟蛤肉",
+	"item.resourceful_tools.jerky": "肉干",
+	"item.resourceful_tools.acorn": "魔法橡子",
+	"item.resourceful_tools.acorn_dark": "魔法深色橡子",
+	"item.resourceful_tools.copper_nugget": "铜粒",
+
+	"item.resourceful_tools.trash_can": "垃圾桶",
+	"item.resourceful_tools.trash_can.line1": "一个用来丢垃圾的方便物品。",
+	"item.resourceful_tools.trash_can.line2": "注意：你放进去的所有物品都会永远消失！",
+	"item.resourceful_tools.trash_can.line3": "垃圾桶！！！",
+
+	"item.resourceful_tools.springs.general.line1": "用空桶右键。",	
+	"block.resourceful_tools.wellspring": "水源",
+	"item.resourceful_tools.wellspring": "水源",
+	"item.resourceful_tools.wellspring.line1": "无尽的水源。",
+
+	"block.resourceful_tools.lavaspring": "岩浆源",
+	"item.resourceful_tools.lavaspring": "岩浆源",
+	"item.resourceful_tools.lavaspring.line1": "无尽的岩浆之源。",
+
+	"block.resourceful_tools.dirt_single": "压缩泥土",
+	"item.resourceful_tools.dirt_single": "压缩泥土",
+
+	"block.resourceful_tools.dirt_double": "双重压缩泥土",
+	"item.resourceful_tools.dirt_double": "双重压缩泥土",
+
+	"block.resourceful_tools.dirt_triple": "三重压缩泥土",
+	"item.resourceful_tools.dirt_triple": "三重压缩泥土",
+
+	"block.resourceful_tools.gravel_single": "压缩沙砾",
+	"item.resourceful_tools.gravel_single": "压缩沙砾",
+
+	"block.resourceful_tools.gravel_double": "双重压缩沙砾",
+	"item.resourceful_tools.gravel_double": "双重压缩沙砾",
+
+	"block.resourceful_tools.gravel_triple": "三重压缩沙砾",
+	"item.resourceful_tools.gravel_triple": "三重压缩沙砾",
+
+	"block.resourceful_tools.sand_single": "压缩沙子",
+	"item.resourceful_tools.sand_single": "压缩沙子",
+
+	"block.resourceful_tools.sand_double": "双重压缩沙子",
+	"item.resourceful_tools.sand_double": "双重压缩沙子",
+
+	"block.resourceful_tools.sand_triple": "三重压缩沙子",
+	"item.resourceful_tools.sand_triple": "三重压缩沙子",
+			
+	"block.resourceful_tools.cobblestone_single": "压缩圆石",
+	"item.resourceful_tools.cobblestone_single": "压缩圆石",
+
+	"block.resourceful_tools.cobblestone_double": "双重压缩圆石",
+	"item.resourceful_tools.cobblestone_double": "双重压缩圆石",
+
+	"block.resourceful_tools.cobblestone_triple": "三重压缩圆石",
+	"item.resourceful_tools.cobblestone_triple": "三重压缩圆石",
+
+	"block.resourceful_tools.andesite_single": "压缩安山岩",
+	"item.resourceful_tools.andesite_single": "压缩安山岩",
+
+	"block.resourceful_tools.andesite_double": "双重压缩安山岩",
+	"item.resourceful_tools.andesite_double": "双重压缩安山岩",
+
+	"block.resourceful_tools.andesite_triple": "三重压缩安山岩",
+	"item.resourceful_tools.andesite_triple": "三重压缩安山岩",
+
+	"block.resourceful_tools.diorite_single": "压缩闪长岩",
+	"item.resourceful_tools.diorite_single": "压缩闪长岩",
+
+	"block.resourceful_tools.diorite_double": "双重压缩闪长岩",
+	"item.resourceful_tools.diorite_double": "双重压缩闪长岩",
+
+	"block.resourceful_tools.diorite_triple": "三重压缩闪长岩",
+	"item.resourceful_tools.diorite_triple": "三重压缩闪长岩",
+
+	"block.resourceful_tools.granite_single": "压缩花岗岩",
+	"item.resourceful_tools.granite_single": "压缩花岗岩",
+
+	"block.resourceful_tools.granite_double": "双重压缩花岗岩",
+	"item.resourceful_tools.granite_double": "双重压缩花岗岩",
+
+	"block.resourceful_tools.granite_triple": "三重压缩花岗岩",
+	"item.resourceful_tools.granite_triple": "三重压缩花岗岩",
+
+	"block.resourceful_tools.netherrack_single": "压缩下界岩",
+	"item.resourceful_tools.netherrack_single": "压缩下界岩",
+
+	"block.resourceful_tools.netherrack_double": "双重压缩下界岩",
+	"item.resourceful_tools.netherrack_double": "双重压缩下界岩",
+
+	"block.resourceful_tools.netherrack_triple": "三重压缩下界岩",
+	"item.resourceful_tools.netherrack_triple": "三重压缩下界岩",
+
+	"block.resourceful_tools.cobbled_deepslate_single": "压缩深板岩圆石",
+	"item.resourceful_tools.cobbled_deepslate_single": "压缩深板岩圆石",
+
+	"block.resourceful_tools.cobbled_deepslate_double": "双重压缩深板岩圆石",
+	"item.resourceful_tools.cobbled_deepslate_double": "双重压缩深板岩圆石",
+
+	"block.resourceful_tools.cobbled_deepslate_triple": "三重压缩深板岩圆石",
+	"item.resourceful_tools.cobbled_deepslate_triple": "三重压缩深板岩圆石",
+
+	"block.resourceful_tools.tuff_single": "压缩凝灰岩",
+	"item.resourceful_tools.tuff_single": "压缩凝灰岩",
+
+	"block.resourceful_tools.tuff_double": "双重压缩凝灰岩",
+	"item.resourceful_tools.tuff_double": "双重压缩凝灰岩",
+
+	"block.resourceful_tools.tuff_triple": "三重压缩凝灰岩",
+	"item.resourceful_tools.tuff_triple": "三重压缩凝灰岩",
+
+	"block.resourceful_tools.basalt_single": "压缩玄武岩",
+	"item.resourceful_tools.basalt_single": "压缩玄武岩",
+
+	"block.resourceful_tools.basalt_double": "双重压缩玄武岩",
+	"item.resourceful_tools.basalt_double": "双重压缩玄武岩",
+
+	"block.resourceful_tools.basalt_triple": "三重压缩玄武岩",
+	"item.resourceful_tools.basalt_triple": "三重压缩玄武岩",
+
+	"block.resourceful_tools.stone_single": "压缩石头",
+	"item.resourceful_tools.stone_single": "压缩石头",
+
+	"block.resourceful_tools.stone_double": "双重压缩石头",
+	"item.resourceful_tools.stone_double": "双重压缩石头",
+
+	"block.resourceful_tools.stone_triple": "三重压缩石头",
+	"item.resourceful_tools.stone_triple": "三重压缩石头",
+		
+	"itemGroup.resourceful_tools": "Resourceful Tools"
+}

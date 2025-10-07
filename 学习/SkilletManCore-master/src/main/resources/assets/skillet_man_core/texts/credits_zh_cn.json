@@ -1,0 +1,315 @@
+[
+  {
+    "section": "演员表",
+    "disciplines": [
+      {
+        "discipline": "领衔主演",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "平底锅侠 - PLAYERNAME 饰",
+              "终界领主 - 金焰神王 饰",
+              "旁白 - P1nero 饰"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "配角",
+        "titles": [
+          {
+            "title": "村民团队",
+            "names": [
+              "美好生活小助手村民",
+              "牧师村民",
+              "传奇盔甲匠",
+              "魁梧的武器匠",
+              "传奇机械师",
+              "图书管理员",
+              "小孩村民",
+              "屠夫村民",
+              "渔夫村民",
+              "农民村民",
+              "牧羊人村民",
+              "铁傀儡",
+              "超雄铁哥"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "客串",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "充满抛瓦的村民",
+              "Rāna Kaname"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "群演",
+        "titles": [
+          {
+            "title": "村民团队",
+            "names": [
+              "人畜无害的流浪商人",
+              "人畜无害的村民客户",
+              "无业游民甲",
+              "无业游民乙",
+              "无业游民丙"
+            ]
+          },
+          {
+            "title": "怪物团队",
+            "names": [
+              "僵尸",
+              "小白",
+              "蜘蛛",
+              "苦力怕",
+              "女巫",
+              "凋零骷髅",
+              "烈焰人",
+              "卫道士",
+              "唤魔者",
+              "末影人"
+            ]
+          },
+          {
+            "title": "动物团队",
+            "names": [
+              "鸡哥",
+              "狼",
+              "猫",
+              "猪",
+              "牛",
+              "羊"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "制作团队",
+    "disciplines": [
+      {
+        "discipline": "作者",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "策划",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "程序",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "任务、图鉴、引导 制作",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "对话设计",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "美术设计",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "背景设定",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "各级店铺建筑 & 风车",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "P1nero"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "外援",
+        "titles": [
+          {
+            "title": "最终Boss",
+            "names": [
+              "太阳照常升起（LittleSun2048）"
+            ]
+          },
+          {
+            "title": "动画",
+            "names": [
+              "merlin204"
+            ]
+          },
+          {
+            "title": "部分贴图",
+            "names": [
+              "Hant0nN 金/钻石锅和小道具",
+              "XVIII-ling Boss血条"
+            ]
+          },
+          {
+            "title": "地形",
+            "names": [
+              "wonderful艾晨"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "设备支持",
+        "titles": [
+          {
+            "title": "测试服务器赞助",
+            "names": [
+              "白露（NHBlock）"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "内测贡献",
+    "disciplines": [
+      {
+        "discipline": "",
+        "titles": [
+          {
+            "title": "",
+            "names": [
+              "紫斗",
+              "佩拉瑞斯",
+              "雪落无痕",
+              "RSGed",
+              "Merlin204"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "广告招租",
+    "disciplines": [
+      {
+        "discipline": "广告招租",
+        "titles": [
+          {
+            "title": "广告招租",
+            "names": [
+              "广告招租",
+              "有意者联系 P1nero"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "特别鸣谢",
+    "disciplines": [
+      {
+        "discipline": "",
+        "titles": [
+          {
+            "title": "对话系统所借鉴的开源项目（Licensed under GNU Lesser General Public License v3.0）",
+            "names": [
+              "The Aether"
+            ]
+          },
+          {
+            "title": "部分素材来源网站 侵删",
+            "names": [
+              "pixabay",
+              "爱给网",
+              "部分素材致敬植物大战僵尸"
+            ]
+          },
+          {
+            "title": "翻译（其他语言的译者可以加上你的名字）",
+            "names": [
+              "Aupoex",
+              "P1nero"
+            ]
+          },
+          {
+            "title": "在机械动力上给予我帮助",
+            "names": [
+              "Aupoex",
+              "JackNeksa",
+              "RSGed",
+              "VX_Nary"
+            ]
+          },
+          {
+            "title": "致敬",
+            "names": [
+              "Minecraft",
+              "Minecraft Forge",
+              "以及整合包中所有的模组"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

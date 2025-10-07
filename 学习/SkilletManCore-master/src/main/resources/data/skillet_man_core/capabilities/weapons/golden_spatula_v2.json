@@ -1,0 +1,12 @@
+{
+  "attributes":
+  {
+    "common":
+    {
+      "max_strikes":1,
+      "damage_bonus":0.5,
+      "speed_bonus": -2.4
+    }
+  },
+  "type":"skillet_man_core:golden_spatula_v1"
+}

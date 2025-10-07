@@ -1,0 +1,14 @@
+{
+  "attributes":
+  {
+    "common":
+    {
+      "armor_negation":9.0,
+      "max_strikes":5,
+      "impact":1.0,
+      "damage_bonus":3,
+      "speed_bonus": 0.2
+    }
+  },
+  "type":"skillet_man_core:diamond_skillet"
+}

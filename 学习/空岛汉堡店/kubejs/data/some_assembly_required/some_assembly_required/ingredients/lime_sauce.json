@@ -1,0 +1,13 @@
+{
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "displayItem": {
+    "item": "some_assembly_required:spread",
+    "nbt": {
+      "Color": 11391289
+    }
+  },
+  "item": "kubejs:lime_sauce",
+  "soundEvent": "some_assembly_required:block.sandwich.add_item.moist"
+}

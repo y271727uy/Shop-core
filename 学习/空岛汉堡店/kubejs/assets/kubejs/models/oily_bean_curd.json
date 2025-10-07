@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#oily_bean_curd"
+        },
+        "east": {
+          "rotation": 90,
+          "texture": "#oily_bean_curd",
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            14.0
+          ]
+        },
+        "north": {
+          "rotation": 180,
+          "texture": "#oily_bean_curd",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "#oily_bean_curd"
+        },
+        "up": {
+          "texture": "#oily_bean_curd"
+        },
+        "west": {
+          "rotation": 270,
+          "texture": "#oily_bean_curd",
+          "uv": [
+            0.0,
+            2.0,
+            2.0,
+            14.0
+          ]
+        }
+      },
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ]
+    }
+  ],
+  "textures": {
+    "oily_bean_curd": "kubejs:item/ingredients/oily_bean_curd"
+  }
+}
