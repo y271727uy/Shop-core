@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "shop_core:block/shop_counter"
-    }
-  }
-}

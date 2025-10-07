@@ -1,5 +1,0 @@
-# 调味料等级 3 配置 (加成: 3%)
-items = [
-    "minecraft:glow_berries",
-    "minecraft:sweet_berries"
-]

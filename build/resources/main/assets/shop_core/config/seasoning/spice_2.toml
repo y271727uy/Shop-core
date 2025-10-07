@@ -1,5 +1,0 @@
-# 调味料等级 2 配置 (加成: 2%)
-items = [
-    "minecraft:cocoa_beans",
-    "minecraft:dried_kelp"
-]
